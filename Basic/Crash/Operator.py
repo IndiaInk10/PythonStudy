@@ -2,6 +2,7 @@
 # sep default = " "(띄어쓰기 한칸)
 # end default = Enter(한 줄 개행)
 
+
 # divide
 a = 5 / 3
 print("실수", a, sep=" : ")
@@ -12,6 +13,7 @@ print("나머지", a, sep=" : ")
 a = divmod(5, 3)
 print("목과 나머지", a, sep=" : ")
 
+
 # pow
 a = 5 ** 3
 print("단일대입연산자 5의 3제곱", a, sep=" : ")
@@ -20,6 +22,7 @@ print("단일대입연산자 5의 3제곱", a, sep=" : ")
 a = 5
 a **= 3
 print("복합대입연산자 5의 3제곱", a, sep=" : ")
+
 
 # logical operator
 
